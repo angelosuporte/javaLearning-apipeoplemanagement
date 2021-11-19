@@ -1,0 +1,5 @@
+package com.challenge.personapi.repository;
+
+public class PersonRepository {
+
+}
