@@ -37,6 +37,7 @@ public class Person {
 	@Column(nullable = false, unique = true)
 	private String cpf;
 	
+	@Column()
 	private LocalDate birthDate;
 	
 	// The cascade option is for when there are changes in Person to reflect on the relationship with Phone

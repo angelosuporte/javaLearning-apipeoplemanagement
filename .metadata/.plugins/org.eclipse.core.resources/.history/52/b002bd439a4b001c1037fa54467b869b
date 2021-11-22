@@ -1,0 +1,16 @@
+package com.challenge.personapi.enums;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.RequiredArgsConstructor;
+
+@Getter
+@AllArgsConstructor
+public enum PhoneType {
+	HOME("Home"),
+	MOBILE("Mobile"),
+	COMMERCIAL("Commercial");
+	
+	private String description;
+}

@@ -358,3 +358,302 @@ java.lang.InterruptedException
 	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
 	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
 	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-19 12:57:34.665
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.CpWILffG
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-19 12:57:34.763
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.CpWILffG
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-19 12:57:34.765
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-19 12:57:34.766
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.CpWILffG => OK
+!SESSION 2021-11-22 08:48:32.358 -----------------------------------------------
+eclipse.buildId=4.10.0.202103111225
+java.version=15.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-11-22 08:50:11.219
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-11-22 08:50:11.219
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6a5c2d2d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1dadd172,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-22 08:52:07.042
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-22 08:52:07.059
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@575a8774[org.springframework.tooling.boot.ls:1.25.0.202103111026(id=555)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-22 08:52:07.217
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-22 08:52:09.478
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-11-22 08:52:20.335
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Angelo_Gilcimara'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-22 08:53:18.976
+!MESSAGE Boot LS startup time from start to initialized: 71640ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-22 08:53:20.765
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.HvMhDbnEisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-22 08:53:20.845
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-22 08:53:20.849
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-22 08:53:20.850
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-22 08:53:20.852
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-22 08:53:20.855
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.HvMhDbnE => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-22 08:53:20.944
+!MESSAGE classpath=100 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-22 08:53:20.958
+!MESSAGE buffering callback sts4.classpath.HvMhDbnE personapi false 100
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-22 08:53:20.959
+!MESSAGE executing callback sts4.classpath.HvMhDbnE 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-22 08:53:22.982
+!MESSAGE executing callback sts4.classpath.HvMhDbnE FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2021-11-22 08:53:22.990
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1950)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2085)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 2 2 2021-11-22 09:57:15.743
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-11-22 10:03:36.337
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2086)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2021-11-22 11:28:48.374
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2021-11-22 11:28:48.374
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2021-11-22 11:28:48.374
+!MESSAGE Software being installed: Mylyn WikiText Editors 3.0.40.202110140008 (org.eclipse.mylyn.wikitext.editors_feature.feature.group 3.0.40.202110140008)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2021-11-22 11:28:48.374
+!MESSAGE Missing requirement: Mylyn WikiText 3.0.40.20211014000718 (org.eclipse.mylyn.wikitext 3.0.40.20211014000718) requires 'java.package; org.jsoup [1.14.0,2.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2021-11-22 11:28:48.374
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-11-22 11:28:48.375
+!MESSAGE From: Mylyn WikiText Editors 3.0.40.202110140008 (org.eclipse.mylyn.wikitext.editors_feature.feature.group 3.0.40.202110140008)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-11-22 11:28:48.375
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.wikitext [3.0.40.20211014000718,3.0.40.20211014000718]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2021-11-22 11:28:49.181
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2021-11-22 11:28:49.181
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2021-11-22 11:28:49.181
+!MESSAGE Software being installed: Mylyn WikiText Editors 3.0.40.202110140008 (org.eclipse.mylyn.wikitext.editors_feature.feature.group 3.0.40.202110140008)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2021-11-22 11:28:49.181
+!MESSAGE Missing requirement: Mylyn WikiText 3.0.40.20211014000718 (org.eclipse.mylyn.wikitext 3.0.40.20211014000718) requires 'java.package; org.jsoup [1.14.0,2.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2021-11-22 11:28:49.181
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-11-22 11:28:49.181
+!MESSAGE From: Mylyn WikiText Editors 3.0.40.202110140008 (org.eclipse.mylyn.wikitext.editors_feature.feature.group 3.0.40.202110140008)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-11-22 11:28:49.181
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.wikitext [3.0.40.20211014000718,3.0.40.20211014000718]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2021-11-22 11:28:51.498
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2021-11-22 11:28:51.498
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2021-11-22 11:28:51.498
+!MESSAGE Software being installed: Mylyn WikiText Editors 3.0.40.202110140008 (org.eclipse.mylyn.wikitext.editors_feature.feature.group 3.0.40.202110140008)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2021-11-22 11:28:51.498
+!MESSAGE Missing requirement: Mylyn WikiText 3.0.40.20211014000718 (org.eclipse.mylyn.wikitext 3.0.40.20211014000718) requires 'java.package; org.jsoup [1.14.0,2.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2021-11-22 11:28:51.498
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-11-22 11:28:51.498
+!MESSAGE From: Mylyn WikiText Editors 3.0.40.202110140008 (org.eclipse.mylyn.wikitext.editors_feature.feature.group 3.0.40.202110140008)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-11-22 11:28:51.498
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.wikitext [3.0.40.20211014000718,3.0.40.20211014000718]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2021-11-22 11:28:51.502
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2021-11-22 11:28:51.502
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2021-11-22 11:28:51.502
+!MESSAGE Software being installed: Mylyn WikiText Editors 3.0.40.202110140008 (org.eclipse.mylyn.wikitext.editors_feature.feature.group 3.0.40.202110140008)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2021-11-22 11:28:51.502
+!MESSAGE Missing requirement: Mylyn WikiText 3.0.40.20211014000718 (org.eclipse.mylyn.wikitext 3.0.40.20211014000718) requires 'java.package; org.jsoup [1.14.0,2.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2021-11-22 11:28:51.502
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-11-22 11:28:51.502
+!MESSAGE From: Mylyn WikiText Editors 3.0.40.202110140008 (org.eclipse.mylyn.wikitext.editors_feature.feature.group 3.0.40.202110140008)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-11-22 11:28:51.502
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.wikitext [3.0.40.20211014000718,3.0.40.20211014000718]
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 2 0 2021-11-22 14:06:41.276
+!MESSAGE Could not remove temporary backup directory (it is safe to manually delete it and its contents): C:\Users\ANGELO~1\AppData\Local\Temp\DefaultProfile_2fa913a46d20_a000069e446
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-22 14:09:05.562
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.HvMhDbnE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-22 14:09:05.679
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.HvMhDbnE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-22 14:09:05.680
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-22 14:09:05.681
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.HvMhDbnE => OK
+!SESSION 2021-11-22 14:09:35.050 -----------------------------------------------
+eclipse.buildId=4.12.1.202110260750
+java.version=15.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data file:/C:/workspaces/Java_Learning/ProjetosParaAprendizagem/personapiSpringBoot/ -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-11-22 14:11:22.806
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-11-22 14:11:22.806
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1b1d1558,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6cc022ac,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-22 14:12:38.398
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-22 14:12:38.401
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@79775c5c[org.springframework.tooling.boot.ls:1.29.0.202110250907(id=918)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-22 14:12:38.496
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-22 14:12:39.651
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-11-22 14:13:06.621
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Angelo_Gilcimara'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-22 14:13:29.822
+!MESSAGE Boot LS startup time from start to initialized: 51307ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-22 14:13:31.958
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.tZXWNlewisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-22 14:13:32.087
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-22 14:13:32.132
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-22 14:13:32.134
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-22 14:13:32.135
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-22 14:13:32.136
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.tZXWNlew => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-22 14:13:32.149
+!MESSAGE classpath=100 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-22 14:13:32.162
+!MESSAGE buffering callback sts4.classpath.tZXWNlew personapi false 100
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-22 14:13:32.164
+!MESSAGE executing callback sts4.classpath.tZXWNlew 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-22 14:13:34.182
+!MESSAGE executing callback sts4.classpath.tZXWNlew FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2021-11-22 14:13:34.184
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1950)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2085)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-22 14:20:57.931
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-22 14:20:58.360
+!MESSAGE classpath=100 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-22 14:20:58.387
+!MESSAGE buffering callback sts4.classpath.tZXWNlew personapi false 100
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-22 14:20:58.388
+!MESSAGE executing callback sts4.classpath.tZXWNlew 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-22 14:20:58.456
+!MESSAGE executing callback sts4.classpath.tZXWNlew SUCCESS [done]
