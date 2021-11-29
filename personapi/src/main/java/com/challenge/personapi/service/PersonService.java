@@ -8,12 +8,15 @@ import org.springframework.web.bind.annotation.RequestBody;
 import com.challenge.personapi.dto.request.PersonDTO;
 import com.challenge.personapi.dto.response.MessageResponseDTO;
 import com.challenge.personapi.entity.Person;
+import com.challenge.personapi.mapper.PersonMapper;
 import com.challenge.personapi.repository.PersonRepository;
 
 @Service
 public class PersonService {
 	
 	private PersonRepository personRepository;
+	
+	private final PersonMapper personMapper = PersonMapper.INSTACE;
 
 	@Autowired
 	public PersonService(PersonRepository personRepository) {
@@ -21,12 +24,12 @@ public class PersonService {
 	}
 	
 	public MessageResponseDTO createPerson(PersonDTO personDTO) {
-		Person savedPerson = personRepository.save(personDTO);
+		Person personToSave = personMapper.toModel(personDTO);
+		
+		Person savedPerson = personRepository.save(personToSave);
 		return MessageResponseDTO
 				.builder()
 				.message("Created person with ID" + savedPerson.getId())
 				.build();
 	}
-	
-
 }

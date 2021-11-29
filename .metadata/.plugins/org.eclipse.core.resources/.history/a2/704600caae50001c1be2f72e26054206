@@ -1,0 +1,9 @@
+package com.challenge.personapi.mapper;
+
+import org.mapstruct.factory.Mappers;
+
+public interface PersonMapper {
+	
+	PersonMapper INSTACE = Mappers.getMapper(PersonMapper.class);
+
+}
