@@ -26,6 +26,7 @@ import com.challenge.personapi.service.PersonService;
 @RequestMapping("/api/v1/people")
 public class PersonController {
 	
+	private static final HttpStatus HttpStatus.NO_CONTENT = null;
 	private PersonService personService;
 	
 	@Autowired
@@ -51,7 +52,7 @@ public class PersonController {
     
     @DeleteMapping("/{id}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
-    public void deleteById(@PathVariable Long id) throws PersonNotFoundException {
+    public void deleteById(Long id) throws PersonNotFoundException {
     	personService.delete(id);
     }
 }
